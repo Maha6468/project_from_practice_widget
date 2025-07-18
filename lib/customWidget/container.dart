@@ -22,7 +22,7 @@ class MyCustomContainer extends StatelessWidget {
       height:Height,width:Width,
       child: Text(text,style:TextStyle(color: TextCo),),
       alignment:Alignment.center,
-      margin:EdgeInsets.all(8.0),
+      margin:EdgeInsets.all(20.0),
       padding:EdgeInsets.all(8.0),
       decoration: BoxDecoration(
           color:color,
@@ -32,7 +32,7 @@ class MyCustomContainer extends StatelessWidget {
             width: 5.2,
           )
       ),
-      transform: Matrix4.rotationZ(.2),
+      transform: Matrix4.rotationZ(.1),
     );
   }
 }
