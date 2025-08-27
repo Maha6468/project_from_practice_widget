@@ -17,8 +17,8 @@ final String? Function(String?)?validator;
   @override
   Widget build(BuildContext context) {
     return  SizedBox(
-      width: 300,
-      height: 60,
+      width: 320,
+      height: 70,
       child: TextFormField(
         controller: controller,
           validator: validator,

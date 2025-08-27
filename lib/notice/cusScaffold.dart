@@ -40,14 +40,14 @@ class _MScaffoldState extends State<MScaffold> {
                      }
                      return null;
                    },),
-                  SizedBox(height: 10,),
+                  SizedBox(height: 13,),
                   CustomFromField(
                     label: "Enter your batch",
                     hint: "Batch",
                     controller: batchController,
                     validator: (value){
                     if(value==null||value.isEmpty){
-                      return "Name cannot be empty";
+                      return "Batch cannot be empty";
                     }
                     return null;
                   },),
@@ -63,8 +63,9 @@ class _MScaffoldState extends State<MScaffold> {
                       }
                     },
                     child: Text("Submit"),
+
                   ),
-                ],
+            ],
           ),
         ),
       ),
