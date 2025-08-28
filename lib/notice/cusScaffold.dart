@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_from_practice_widget/notice/nCustom/cus_AppBar.dart';
 import 'package:project_from_practice_widget/notice/nCustom/cus_TextfromField.dart';
+import 'package:project_from_practice_widget/notice/page/secondpage.dart';
 
 class MScaffold extends StatefulWidget {
   const MScaffold({super.key});
@@ -57,15 +58,22 @@ class _MScaffoldState extends State<MScaffold> {
               SizedBox(height: 2),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.cyan,foregroundColor: Colors.white),
+                  backgroundColor: Colors.cyan,
+                  foregroundColor: Colors.white,
+                ),
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
                     print("Name: ${nameController.text}");
                     print("Batch: ${batchController.text}");
                     ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(content: Text("Form submitted successfully!"),
-                        backgroundColor: Colors.grey,),
+                      SnackBar(
+                        content: Text("Form submitted successfully!"),
+                        backgroundColor: Colors.grey,
+                      ),
                     );
+                    Navigator.push(
+                        context, MaterialPageRoute(
+                        builder: (context)=>SecondPage(),),);
                   }
                 },
                 child: Text("Submit"),
