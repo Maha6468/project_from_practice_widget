@@ -11,6 +11,7 @@ class SecondPage extends StatelessWidget {
         backgroundColor: Colors.cyan,
         centerTitle: true,
       ),
+      
     );
   }
 }
