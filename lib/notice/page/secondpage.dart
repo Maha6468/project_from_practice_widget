@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
 
@@ -36,9 +37,11 @@ class _SecondPageState extends State<SecondPage> {
   @override
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
-    fatchUsers();
+    Timer(Duration(seconds: 2),(){
+      fatchUsers();
+    });
+
   }
   Widget build(BuildContext context) {
     return Scaffold(
