@@ -20,16 +20,14 @@ class _SecondPageState extends State<SecondPage> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 20),(){
       fatchUsers();
-    });
-
   }
 
   Future<void> fatchUsers()async {
     setState(() {
       isloading=true;
     });
+    await Future.delayed(Duration(seconds: 20));
     final response=await http.get(Uri.parse("https://jsonplaceholder.typicode.com/users"));
     setState(() {
       isloading=false;
