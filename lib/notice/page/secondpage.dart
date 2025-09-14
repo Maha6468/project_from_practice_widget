@@ -16,6 +16,16 @@ class _SecondPageState extends State<SecondPage> {
   List users=[];
 
   bool isloading=false;
+
+  @override
+  void initState() {
+    super.initState();
+    Timer(Duration(seconds: 20),(){
+      fatchUsers();
+    });
+
+  }
+
   Future<void> fatchUsers()async {
     setState(() {
       isloading=true;
@@ -35,14 +45,7 @@ class _SecondPageState extends State<SecondPage> {
   }
 
   @override
-  @override
-  void initState() {
-    super.initState();
-    Timer(Duration(seconds: 2),(){
-      fatchUsers();
-    });
 
-  }
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -50,7 +53,10 @@ class _SecondPageState extends State<SecondPage> {
         backgroundColor: Colors.cyan,
         centerTitle: true,
       ),
-      body:ListView.builder(
+      body:isloading?Center(
+        child: CircularProgressIndicator(),
+      ):
+      ListView.builder(
         itemCount: users.length,
           itemBuilder: (context,index){
           final user=users[index];
