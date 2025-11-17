@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:project_from_practice_widget/notice/cusScaffold.dart';
+
+
+import 'module_13/crud.dart';
 
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.tealAccent ),
       ),
-      home:MScaffold(),
+      home:Crud(),
     );
   }
 }
