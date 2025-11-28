@@ -2,40 +2,37 @@
 
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:miner/common/prefrance.dart';
-import 'package:miner/data/repo/repo.dart';
-import 'package:miner/models/DeleteAccountModel.dart';
-import 'package:miner/models/RewardsWithdrawModel.dart';
-import 'package:miner/models/all_team_model.dart';
-import 'package:miner/models/dashboard_refresh_model.dart';
-import 'package:miner/models/deshbord_model.dart';
-import 'package:miner/models/error_response_model.dart';
-import 'package:miner/models/login_model.dart';
-import 'package:miner/models/my_offers_model.dart';
-import 'package:miner/models/offers_history_model.dart';
-import 'package:miner/models/ping_all_members.dart';
-import 'package:miner/models/profile_model.dart';
-import 'package:miner/models/quiz_model.dart';
-import 'package:miner/models/register_model.dart';
-import 'package:miner/models/register_token_model.dart';
-import 'package:miner/models/reset_password_model.dart';
-import 'package:miner/models/solve_question.dart';
-import 'package:miner/models/start_mining_model.dart';
-import 'package:miner/models/transferCoinModel.dart';
-import 'package:miner/models/updateNotificationModel.dart';
-import 'package:miner/models/withDrawShib.dart';
-
-
+import 'package:project_from_practice_widget/data/repo/repo.dart';
+import '../../models/DeleteAccountModel.dart';
+import '../../models/RewardsWithdrawModel.dart';
+import '../../models/all_team_model.dart';
 import '../../models/check_app_status_model.dart';
+import '../../models/dashboard_refresh_model.dart';
+import '../../models/deshbord_model.dart';
+import '../../models/error_response_model.dart';
 import '../../models/join_referal_model.dart';
+import '../../models/login_model.dart';
 import '../../models/logout_responce_model.dart';
+import '../../models/my_offers_model.dart';
+import '../../models/offers_history_model.dart';
+import '../../models/ping_all_members.dart';
+import '../../models/profile_model.dart';
+import '../../models/quiz_model.dart';
+import '../../models/register_model.dart';
+import '../../models/register_token_model.dart';
+import '../../models/reset_password_model.dart';
+import '../../models/solve_question.dart';
 import '../../models/stack_history_model.dart';
+import '../../models/start_mining_model.dart';
 import '../../models/support_responce_model.dart';
 import '../../models/team_model.dart';
+import '../../models/transferCoinModel.dart';
+import '../../models/updateNotificationModel.dart';
 import '../../models/update_profile_model.dart';
 import '../../models/wallet_model.dart';
 import '../../models/wallet_token_model.dart';
-import '../network/data_provider.dart';
+import '../../models/withDrawShaib.dart';
+import '../network/dart_provider.dart';
 
 class UserRepoImpl extends UserRepository {
   UserRepoImpl({required DataProvider dataProvider})

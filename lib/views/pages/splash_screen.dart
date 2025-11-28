@@ -12,7 +12,6 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../colors/app_colors.dart';
 import '../../common/app_loading.dart';
-import '../../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../../common/global_widget.dart';
 
 import '../../common/perfrance.dart';
@@ -215,6 +214,15 @@ void checkAppStatus(BuildContext context, MethodChannel channel, Function callba
     callback(false);
   }
 }
+
+
+//maha
+extension on Function() {
+  void setData(String isWithdrawEnabled, bool isWithdrawEnabled2) {}
+
+  Future getData(String miningEnabledStatus) async {}
+}
+
 
 /*void checkAppStatus(BuildContext context, MethodChannel channel, Function callback) async {
   try {

@@ -7,7 +7,6 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../ads/AdManager.dart';
 import '../../colors/app_colors.dart';
-import '../../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../../common/perfrance.dart';
 import '../../controllers/quiz_controller.dart';
 import '../../models/quiz_model.dart';
@@ -546,4 +545,10 @@ class _QuizStructurePageState extends State<QuizStructurePage> {
     }
     await initAd();
   }
+}
+
+
+//maha
+extension on Function() {
+  Future getData(String isAdEnabled) async {}
 }

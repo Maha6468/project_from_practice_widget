@@ -13,7 +13,6 @@ import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
 import 'package:unity_ads_plugin/unity_ads_plugin.dart';
 
-import '../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../common/perfrance.dart';
 import 'IronSourceErrorListener.dart';
 import 'MyIronSourceListerner.dart';
@@ -464,6 +463,13 @@ class AdManager implements IronSourceErrorListener{
     // errorMessage = msg;
   }
 
+}
+
+
+
+//maha
+extension on Function() {
+  Future getData(String isAdEnabled) async {}
 }
 
 

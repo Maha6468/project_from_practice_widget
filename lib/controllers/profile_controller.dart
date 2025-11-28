@@ -8,7 +8,6 @@ import 'package:project_from_practice_widget/controllers/profile_update_controll
 
 import '../colors/app_colors.dart';
 import '../common/app_loading.dart';
-import '../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../common/global_widget.dart';
 import '../common/perfrance.dart';
 import '../data/repo/repo.dart';
@@ -284,4 +283,12 @@ class ProfileController extends GetxController{
 
   }
 
+}
+
+
+//maha
+extension on Function() {
+  Future getData(String isProfileFaqSeen) async {}
+
+  Future<void> setData(String isProfileFaqSeen, bool bool) async {}
 }

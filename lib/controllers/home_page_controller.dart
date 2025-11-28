@@ -6,7 +6,6 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../common/app_loading.dart';
-import '../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../common/firebase_notification/save_notification_list.dart';
 import '../common/global_widget.dart';
 import '../common/perfrance.dart';
@@ -310,4 +309,10 @@ class HomePageController extends GetxController
     }
   }
 
+}
+
+
+//maha
+extension on Function() {
+  Future<bool?> getData(String miningEnabledStatus) async {}
 }

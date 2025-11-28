@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:get/get.dart';
-import '../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../common/perfrance.dart';
 import '../data/repo/repo.dart';
 import '../models/check_app_status_model.dart';
@@ -51,4 +50,11 @@ class SplashController extends GetxController{
     super.onInit();
   }
 
+}
+  
+//maha
+extension on Function() {
+  Future getData(String token) async {}
+
+  void setData(String token, String s) {}
 }

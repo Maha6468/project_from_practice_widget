@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 
 import '../common/app_loading.dart';
-import '../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../common/global_widget.dart';
 import '../common/perfrance.dart';
 import '../data/repo/repo.dart';
@@ -106,4 +105,10 @@ class MainPageController extends GetxController{
       print("Error loading preference: $e");
     }
   }
+}
+
+
+//maha
+extension on Function() {
+  Future<bool?> getData(String miningEnabledStatus) async {}
 }

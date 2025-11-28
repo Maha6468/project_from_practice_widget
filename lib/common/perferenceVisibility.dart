@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:project_from_practice_widget/common/perfrance.dart';
 
-import 'firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 
 class PreferenceVisibility extends StatefulWidget {
   final String preferenceKey;
@@ -49,4 +49,10 @@ class _PreferenceVisibilityState extends State<PreferenceVisibility> {
       );
     }
   }
+}
+
+
+//maha
+extension on Function() {
+  Future<bool?> getData(String preferenceKey) async {}
 }

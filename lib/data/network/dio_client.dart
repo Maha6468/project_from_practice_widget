@@ -6,13 +6,12 @@ import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:encrypt/encrypt.dart' as enc;
 import 'package:flutter/material.dart';
-import 'package:get/get.dart' hide Response;
+import 'package:get/get.dart' hide Response, FormData;
 import 'package:get/get_core/src/get_main.dart' as nav;
 
 import '../../colors/app_colors.dart';
 import '../../common/app_loading.dart';
 import '../../common/constants.dart';
-import '../../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../../common/global_widget.dart';
 import '../../common/perfrance.dart';
 import '../../models/response.dart';
@@ -657,4 +656,17 @@ class DioClient {
     }
   }
 }
+
+//maha
+class ResendEmailVerify {
+}
+
+
+//maha
+extension on Function() {
+  Future<void> setData(String token, newAccessToken) async {}
+
+  Future<String?> getData(String token) async {}
+}
+
 

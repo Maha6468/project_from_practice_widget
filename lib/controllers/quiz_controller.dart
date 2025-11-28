@@ -9,7 +9,6 @@ import 'package:get_storage/get_storage.dart';
 import 'package:pausable_timer/pausable_timer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../common/app_loading.dart';
-import '../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../common/global_widget.dart';
 import '../common/perfrance.dart';
 import '../common/string.dart';
@@ -238,4 +237,10 @@ class QuizController extends GetxController {
       print("Error loading preference: $e");
     }
   }
+}
+
+
+//maha
+extension on Function() {
+  Future<bool?> getData(String miningEnabledStatus) async {}
 }

@@ -10,7 +10,6 @@ import 'package:get_storage/get_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 import '../common/app_loading.dart';
-import '../common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import '../common/global_widget.dart';
 import '../common/perfrance.dart';
 import '../common/string.dart';
@@ -396,3 +395,14 @@ class AuthController extends GetxController {
   }
 
 }
+
+
+//maha
+extension on Function() {
+  Future getData(String token) async {}
+
+  Future<void> setData(String token, String? accessToken) async {}
+}
+
+
+

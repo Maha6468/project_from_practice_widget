@@ -19,8 +19,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'ads/AdManager.dart';
 import 'common/app_loading.dart';
 import 'common/firebase_notification/firebase_notification.dart';
-import 'common/firebase_notification/main dart configration.txt.dart' as PreferenceHelper;
 import 'common/global_widget.dart';
+import 'common/perfrance.dart';
 import 'common/string.dart';
 import 'common/wrapper.dart';
 import 'firebase_options.dart';
@@ -69,6 +69,11 @@ Future<void> main() async {
 
 
   runApp(MyApp(locale));
+}
+
+//maha
+extension on Function() {
+  Future<void> createSharedPref() async {}
 }
 
 
