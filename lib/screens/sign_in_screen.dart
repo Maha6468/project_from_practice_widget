@@ -81,7 +81,7 @@ class _SignInScreenState extends State<SignInScreen> {
                               fontWeight: FontWeight.bold, color: Colors.black),
                         ),
                         onTap: () {
-                          //TODO
+
                         }),
                     const SizedBox(height: 30),
                     Center(
@@ -163,7 +163,7 @@ class _SignInScreenState extends State<SignInScreen> {
                               child: Row(
                                 children: [
                                   Expanded(child: SizedBox()),
-                                  FaIcon(FontAwesomeIcons.google),
+                                  FaIcon(FontAwesomeIcons.google,),
                                   SizedBox(
                                     width: 10,
                                   ),
