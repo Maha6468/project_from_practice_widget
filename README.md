@@ -13,7 +13,7 @@ A Flutter UI project showing different course-related pages and user account scr
 
 | News Screen | Details |
 |-------------|-----------|----------|
-| ![News Screen](screenshorts/news_Screen.jpeg) | ![Details](screenshorts/details.jpeg) |
+| ![News Screen](screenshorts/news_Screen.jpeg) | ![Details](screenshorts/details.jpeg) 
 
 ---
 
