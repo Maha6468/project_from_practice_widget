@@ -12,8 +12,8 @@ A Flutter UI project showing different course-related pages and user account scr
 | ![Splash Screen](screenshorts/splash.jpeg) | ![Sign_In](screenshorts/sign_In.jpeg) | ![Loading Time](screenshorts/loadingTime.jpeg) |
 
 | News Screen | Details |
-|-------------|-----------|----------|
-| ![News Screen](screenshorts/news_Screen.jpeg) | ![Details](screenshorts/details.jpeg) 
+|-------------|-----------|
+| ![News Screen](screenshorts/news_Screen.jpeg) | ![Details](screenshorts/details.jpeg) |
 
 ---
 
