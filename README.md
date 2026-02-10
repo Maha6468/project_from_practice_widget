@@ -1,6 +1,6 @@
 # 📚 My Courses
 
-A Flutter UI project showing different course-related pages and user account screens.
+A Flutter UI project showing Splash Screen ,Login Screen ,News Details pages and  also use API .
 
 ---
 
