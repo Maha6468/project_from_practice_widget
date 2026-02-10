@@ -9,11 +9,11 @@ A Flutter UI project showing different course-related pages and user account scr
 
 | Splash Screen | Sign_In | Loading Time |
 |-------|----------|-----------------|
-| ![Splash Screen](screenshots/splash.jpeg) | ![Sign_In](screenshots/sign_In.jpeg) | ![Loading Time](screenshots/loadingTime.jpeg) |
+| ![Splash Screen](screenshorts/splash.jpeg) | ![Sign_In](screenshorts/sign_In.jpeg) | ![Loading Time](screenshorts/loadingTime.jpeg) |
 
 | News Screen | Details |
 |-------------|-----------|----------|
-| ![News Screen](screenshots/news_Screen.jpeg) | ![Details](screenshots/details.jpeg) |
+| ![News Screen](screenshorts/news_Screen.jpeg) | ![Details](screenshorts/details.jpeg) |
 
 ---
 
