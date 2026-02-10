@@ -1,4 +1,4 @@
-# 📚 My Courses
+# 📚 Project from practice
 
 A Flutter UI project showing Splash Screen ,Login Screen ,News Details pages and  also use API .
 
