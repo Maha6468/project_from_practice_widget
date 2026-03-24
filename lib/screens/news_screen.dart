@@ -97,8 +97,7 @@ class _NewsScreenState extends State<NewsScreen> {
                 ),
               ],
               selectedItemColor: Colors.blue,
-              // Color for the selected item
-              unselectedItemColor: Colors.grey, // Color for unselected items
+              unselectedItemColor: Colors.grey,
             ),
             body: Consumer<NewsViewModel>(
               builder: (context, viewModel, child) {
