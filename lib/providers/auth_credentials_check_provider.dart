@@ -8,8 +8,7 @@ class AuthCredentialsCheckProvider with ChangeNotifier {
 
   /// Validates the email format and updates the email message.
   void isValidEmail(String email) {
-    final emailRegex = RegExp(
-        r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'); // Email pattern
+    final emailRegex = RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'); // Email pattern
     if (emailRegex.hasMatch(email)) {
       isEmailErrol = false;
       notifyListeners();
