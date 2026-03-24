@@ -8,11 +8,9 @@ import 'package:provider/provider.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
-
   @override
   State<SignInScreen> createState() => _SignInScreenState();
 }
-
 class _SignInScreenState extends State<SignInScreen> {
   TextEditingController userNameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
@@ -156,7 +154,7 @@ class _SignInScreenState extends State<SignInScreen> {
                             shape: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(20)),
                             onPressed: () {
-                              //TODO
+
                             },
                             child: const Padding(
                               padding: EdgeInsets.all(10.0),
@@ -187,7 +185,7 @@ class _SignInScreenState extends State<SignInScreen> {
                             shape: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(20)),
                             onPressed: () {
-                              //TODO
+
                             },
                             child: const Padding(
                               padding: EdgeInsets.all(10.0),
@@ -223,7 +221,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                   recognizer: TapGestureRecognizer()
                                     ..onTap = () {
                                       print("hello");
-                                      //TODO
+
                                     }),
                             ])),
                     const SizedBox(
