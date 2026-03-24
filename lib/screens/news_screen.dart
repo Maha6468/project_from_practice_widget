@@ -28,7 +28,7 @@ class _NewsScreenState extends State<NewsScreen> {
                 indicator: BoxDecoration(
                   color: Colors.transparent,
                 ),
-                labelColor: Colors.black,
+                labelColor: Colors.red,
                 unselectedLabelColor: Colors.grey,
                 labelStyle: TextStyle(
                   fontWeight: FontWeight.bold,
@@ -58,14 +58,12 @@ class _NewsScreenState extends State<NewsScreen> {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               centerTitle: true,
-              // Centers the title
               actions: [
                 Padding(
                   padding: const EdgeInsets.only(right: 10.0),
                   child: IconButton(
                     icon: const Icon(Icons.notifications),
                     onPressed: () {
-                      //TODO
                       // Handle notification button press
                     },
                   ),
