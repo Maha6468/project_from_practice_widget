@@ -3,7 +3,7 @@ import 'package:flutter_news_app/screens/news_details_screen.dart';
 import 'package:flutter_news_app/widgets/news_item.dart';
 import 'package:provider/provider.dart';
 
-import '../viewmodel/news_view_model.dart';
+import '../providers/news_view_model.dart';
 
 class NewsScreen extends StatefulWidget {
   const NewsScreen({super.key});
