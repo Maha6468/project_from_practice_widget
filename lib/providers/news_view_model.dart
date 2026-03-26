@@ -23,7 +23,6 @@ class NewsViewModel extends ChangeNotifier{
     _errorMessage = null;
     notifyListeners();
     // Notify UI that loading has started
-
     try {
       _newsList = await _newsRepo.fetchAllNews();
     } catch (error) {
