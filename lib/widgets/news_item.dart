@@ -25,7 +25,7 @@ class NewsItem extends StatelessWidget {
         elevation: 5,
         child: Container(
           padding: const EdgeInsets.all(10),
-          height: 120,
+          height: 130,
           width: double.infinity,
           decoration: const BoxDecoration(
               color: Color(0xffF8F8F8),
@@ -36,7 +36,6 @@ class NewsItem extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                // 70% space for the text content
                 Expanded(
                   flex: 7, // 70% of the available space
                   child: Column(
@@ -45,7 +44,7 @@ class NewsItem extends StatelessWidget {
                     children: [
                       Text(
                         title,
-                        maxLines: 2,
+                        maxLines: 3,
                         softWrap: true,
                         textAlign: TextAlign.start,
                         style: const TextStyle(
@@ -65,9 +64,7 @@ class NewsItem extends StatelessWidget {
                               style: const TextStyle(color: Colors.grey, fontSize: 12),
                             ),
                           ),
-                          const SizedBox(
-                            width: 10,
-                          ),
+                          const SizedBox(width: 10,),
                           Flexible(
                             child: Text(
                               publishAt,
