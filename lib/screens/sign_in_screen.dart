@@ -72,12 +72,8 @@ class _SignInScreenState extends State<SignInScreen> {
                           }),
                     ),
                     const SizedBox(height: 30),
-                    InkWell(
-                        child: const Text(
-                          "Forgot Password?",
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, color: Colors.black),
-                        ),
+                    InkWell(child: const Text("Forgot Password?",
+                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black),),
                         onTap: () {
 
                         }),
