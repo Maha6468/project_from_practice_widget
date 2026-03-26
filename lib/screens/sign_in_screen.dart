@@ -34,7 +34,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     const SizedBox(height: 50),
                     Container(
                       width: double.infinity,
-                      height: 120,
+                      height: 130,
                       alignment: Alignment.center,
                       padding: const EdgeInsets.all(10.0),
                       child: Image.asset("assets/images/logo2.png"),
