@@ -19,7 +19,6 @@ class CustomTextInputField extends StatefulWidget {
     this.isPassword = false,
     this.prefixIcon, required this.errorText, this.onChanged,
   });
-
   @override
   _CustomTextInputFieldState createState() => _CustomTextInputFieldState();
 }
